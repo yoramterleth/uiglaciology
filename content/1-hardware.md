@@ -14,8 +14,15 @@ Do most computing on the group server kennicott.
 
 
 
+---
 
-# OLD below
+---
+
+---
+
+
+
+# OLD material below from another website
 
 Carpentries lesson content is openly developed on GitHub by hundreds of contributors editing and discussing the materials.
 For example, the SWC [Version Control with Git](http://swcarpentry.github.io/git-novice/){:target="_blank"} lesson has 100+ [contributors](https://github.com/swcarpentry/git-novice/graphs/contributors){:target="_blank"} since 2013, with about 200 discussion ["Issues"](https://github.com/swcarpentry/git-novice/issues){:target="blank"} since 2015.
