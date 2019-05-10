@@ -1,9 +1,33 @@
 ---
-title: Teach
+title: Structure
 nav: true
 ---
 
-# Teaching
+# File Structure and Organization
+
+Use OneDrive to back up your work, and keep it synchronized between different computers.
+
+## On kennicott
+
+There are three fundamental directories on kennicott:
+- basic_data
+    - at `/data/stor/basic_data/`
+- proj
+    - at `/data/stor/proj/`
+- The home directory
+    - at `~` or `/home/user_name`, in which `user_name` is your user name, for logging into kennicott, for example your first initial and last name, run together without spaces.
+    
+### basic_data
+basic_data is where unmodified, broadly useful data, are stored.  Filenames shouldn't be renamed- they should be retained as downloaded or received.  Metadata should be stored with the data.
+
+### proj
+proj is for individual projects that each of us are working on.  This is where any derived data or analysed data should go.
+
+### Home directory
+Tim recommends against using this directory for most purposes.  It is not accessible to others under most circumstances.  It's better to work on projects in a transparent, centralized, and accessible way.
+
+# OLD Below
+
 
 {% include figure.html img="color-color-paper-colored-paper-268347.jpg" alt="sticky notes by rawpixels.com" %}
 
