@@ -33,15 +33,16 @@ Don't do significant computing on your local computer if it's not being backed u
 ---
 
 # Navigating the file system
-On linux, which is the operating system running on kennicott, there are a few commands that will be useful in navigating the file system.  Each of these have flags, which are run with a hyphen and then some additional character, for instance `-h' to make the output into human readable file sizes.  Type `man ls`, for instance, to see the manual page, and the definition of any flags and how to use a command in linux.
+On linux, which is the operating system running on kennicott, there are a few commands that will be useful in navigating the file system.  Each of these have flags, which are run with a hyphen and then some additional character, for instance `-h` to make the output into human readable file sizes.  Type `man ls`, for instance, to see the manual page, and the definition of any flags and how to use a command in linux.
 
-These useful commands include:
+These useful commands, with some common flags include:
 ```
 pwd
 cd
-ls
-du
-tree
+ls -l -h
+ls | head -20  # for listing enclosed files, piping the output to head, and then showing just the first 20 files in the directory
+du -h -d 2     # for identifying the amount of disk space in directories
+tree -L 2      # for creating a graphical output of a directory structure
 ```
 
 
