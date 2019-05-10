@@ -40,7 +40,8 @@ These useful commands, with some common flags include:
 pwd
 cd
 ls -l -h
-ls | head -20  # for listing enclosed files, piping the output to head, and then showing just the first 20 files in the directory
+ls | head -20  # for listing enclosed files, piping the output to head, 
+               #    and then showing just the first 20 files in the directory
 du -h -d 2     # for identifying the amount of disk space in directories
 tree -L 2      # for creating a graphical output of a directory structure
 ```
