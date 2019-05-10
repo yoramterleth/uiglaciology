@@ -9,7 +9,9 @@ Our group strives to be a welcoming and inclusive community in which you, and I,
 We welcome members from all different backgrounds.
 
 
-<span style="color:silver;">Word orange
+<font color="silver">This is some text
+  
+[comment]: # (<span style="color:silver;">Word orange)
 
 [comment]: # (<p style='color:red'>This is some red text.</p>)
 
