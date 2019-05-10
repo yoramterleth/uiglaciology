@@ -1,8 +1,15 @@
 ---
-title: Resources
+title: Support
 nav: true
 ---
 
+# Creating a supportive and inclusive environment
+Our group strives to be a welcoming and inclusive environment in which you, and I, and all of us feel supported and included in our efforts to be the best scientists we can be.
+
+We welcome members from all different backgrounds.
+
+
+# OLD below
 # Resources
 
 ### Carpentries readings
