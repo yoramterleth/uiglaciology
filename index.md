@@ -3,11 +3,15 @@ title: Home
 layout: default
 ---
 
-# Teaching Tech Hands-on!
+# Glacier Dynamics at the University of Idaho
 
 {% include figure.html img="bump-collaboration-colleagues-1068523-cr.jpg" alt="fist bump with computers by rawpixels.com" %}
 
-Teaching digital tools is often challenging for the instructor and intimidating for the learner. 
+Here's an intro of what you'll find in these pages.
+
+### These pages are modeled on a website produced by Evan Will at the UI library
+Much of the content you'll find here is unmodified from Evan's original website: https://evanwill.github.io/tech-hands-on/
+
 However, computing and data skills are a growing part of every discipline making it necessary to incorporate in curriculum. 
 
 The [Carpentries](https://carpentries.org/) is an international volunteer organization that collaboratively develops lessons and teaches two day workshops to fill that gap and support foundational tech skills in research. 
