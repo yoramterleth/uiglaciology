@@ -9,14 +9,14 @@ Our group strives to be a welcoming and inclusive community in which you, and I,
 We welcome members from all different backgrounds.
 
 
-<span style="color:orange;">Word orange</span>
+<span style="color:silver;">Word orange
 
-<p style='color:red'>This is some red text.</p>
+[comment]: # (<p style='color:red'>This is some red text.</p>)
 
-<font color="red">This is some text!</font>
-These are <b style='color:red'>red words</b>.
+[comment]: # (<font color="red">This is some text!</font>)
+[comment]: # (These are <b style='color:red'>red words</b>.)
 
-<font color="gray cloud">
+[comment]: # (  <font color="gray cloud">)
 
 
 # OLD below
@@ -35,7 +35,7 @@ These are <b style='color:red'>red words</b>.
 - Jacobs, et al. "Experiences with efficient methodologies for teaching computer programming to geoscientists". [arXiv:1505.05425](https://arxiv.org/abs/1505.05425)
 
 # Reference
-</font>
+[comment]: # ( </font>)
 
 ### GitHub <span class="fab fa-github"></span>
 
@@ -43,6 +43,8 @@ These are <b style='color:red'>red words</b>.
 It provides a handy web interface for editing and collaborating on repos, as well as, built in project management features and [free static web hosting](https://pages.github.com/){:target="blank"} powered by [Jekyll](https://jekyllrb.com/){:target="blank"}.
 Accounts are free.
 To learn more check out Hello World on [GitHub Guides](https://guides.github.com/){:target="_blank"} or [GitHub Training](https://services.github.com/on-demand/){:target="_blank"}.
+
+</span>
 
 ### Jekyll 
 
