@@ -1,9 +1,21 @@
 ---
-title: Develop
+title: Hardware
 nav: true
 ---
 
-# Collaborative Development + OER
+# Use of Hardware
+We make a distinction between the server, kennicott, which is a powerful computer in the basement of McClure, to which everyone in the group can log in, and also local computers, which might be a desktop or laptop.
+
+An important concept is that different computers, like kennicott, can be operated from a different computer.
+
+kennicott can be accessed via a terminal and ssh (including with putty, from a Windows machine), or, alternately it can be mounted via samba to a local computer filesystem.
+
+Do most computing on the group server kennicott.
+
+
+
+
+# OLD below
 
 Carpentries lesson content is openly developed on GitHub by hundreds of contributors editing and discussing the materials.
 For example, the SWC [Version Control with Git](http://swcarpentry.github.io/git-novice/){:target="_blank"} lesson has 100+ [contributors](https://github.com/swcarpentry/git-novice/graphs/contributors){:target="_blank"} since 2013, with about 200 discussion ["Issues"](https://github.com/swcarpentry/git-novice/issues){:target="blank"} since 2015.
