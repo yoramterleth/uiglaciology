@@ -30,6 +30,7 @@ Below is a list of tasks and activities that will help keep your time in grad sc
     - One of the best ways to do this is to have already made significant progress towards your Ph.D. (ideally with a manuscript already complete and submitted to a journal).
     - One of the challenges of preparing a dissertation or thesis proposal is identifying and defining an appropriate scope.  Students commonly will attempt to do too much.  Prove that you have a sophisticated understanding of the scientific process by proposing work that advances your field and addresses a need for scholarship, but has well-defined boundaries.
 - Approximately 1-2 weeks after turning the final version of your proposal to your committee, present this proposal orally to the committee and to the public.
+    - The purpose of the oral presentation is to demonstrate your growth and development as an independent scientist,  convince your committee and the attending public that you have the capacity to do the work you've proposed, and that you're engaging in the advancement of your discipline.
     - After the oral presentation, you will have a meeting just with your committee to defend your proposal, and discuss the scope and your preparation for the work.
 
 
@@ -45,7 +46,16 @@ Below is a list of tasks and activities that will help keep your time in grad sc
 - Format your thesis carefully.
 
 
-# OLD Below
+---
+
+---
+
+---
+
+
+# OLD material below from another website
+
+
 # Introduction
 
 - Me ([Evan, Digital Infrastructure Librarian](http://vivo.nkn.uidaho.edu/vivo/individual/n43629){:target="_blank"})
