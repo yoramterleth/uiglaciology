@@ -1,7 +1,16 @@
 ---
-title: Examples
+title: Code
 nav: true
 ---
+
+# Tips on coding
+We generally use python.
+
+google is key for learning how to code.  Tim also recommends https://scipy-lectures.org/, as a good consistent primer on a lot of fundamental coding tasks.
+
+
+
+# OLD below
 
 Non-Carpentries examples using GitHub and websites to develop interactive learning:
 
