@@ -30,6 +30,21 @@ Tim recommends against using this directory for most purposes.  It is not access
 ## On your local computer
 Don't do significant computing on your local computer if it's not being backed up on OneDrive.  Whenever possible, do your work on kennicott.
 
+---
+
+# Navigating the file system
+On linux, which is the operating system running on kennicott, there are a few commands that will be useful in navigating the file system.  Each of these have flags, which are run with a hyphen and then some additional character, for instance `-h' to make the output into human readable file sizes.  Type `man ls`, for instance, to see the manual page, and the definition of any flags and how to use a command in linux.
+
+These useful commands include:
+```
+pwd
+cd
+ls
+du
+tree
+```
+
+
 # OLD Below
 
 
