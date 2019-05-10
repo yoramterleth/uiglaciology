@@ -9,6 +9,7 @@ layout: default
 
 The goal of this website is that it serve as a communal resource of best practices and standards for members of the University of Idaho Glacier Dynamics lab group.  This website is a dynamic resource.  It should be useful and helpful to all in the group, and likewise, be updated by all in the group.
 
+## Making this site more useful
 Everyone should feel able and obligated to update the site, using the standards of github.com, by issuing a pull request.  In order to make modifications to these pages:
 1. Go to the [content subdirectory of github.com/tbartholomaus/uiglaciology/](https://github.com/tbartholomaus/uiglaciology/tree/master/content)
 2. Log into github with your username (this may happen automatically).
