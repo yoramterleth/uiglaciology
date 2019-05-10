@@ -3,6 +3,10 @@ title: Intro
 nav: true
 --- 
 
+# Here's where we could describe our hardware and best practices
+
+
+
 # Introduction
 
 - Me ([Evan, Digital Infrastructure Librarian](http://vivo.nkn.uidaho.edu/vivo/individual/n43629){:target="_blank"})
