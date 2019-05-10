@@ -1,12 +1,24 @@
 ---
-title: Intro
+title: UIdaho
 nav: true
 --- 
 
-# Here's where we could describe our hardware and best practices
+# Tips for life and work at the University of Idaho
+
+## Arriving at UI
+- Get your VandalCard/student ID card.
+- Get your lab key from Terry.
+- Get your VandalCard set up for entry after-hours to McClure.
+
+## After your first year
+- Form a committee to help guide you through your graduate career.
+- Create a graduate study plan and file it with the graduate school.
+
+## Graduating
+- Apply to graduate.
 
 
-
+# OLD Below
 # Introduction
 
 - Me ([Evan, Digital Infrastructure Librarian](http://vivo.nkn.uidaho.edu/vivo/individual/n43629){:target="_blank"})
