@@ -9,7 +9,7 @@ Our group strives to be a welcoming and inclusive community in which you, and I,
 We welcome members from all different backgrounds.
 
 
-<font color="silver">This is some text
+<font color="silver">This is some text</font>
   
 [comment]: # (<span style="color:silver;">Word orange)
 
@@ -21,7 +21,14 @@ We welcome members from all different backgrounds.
 [comment]: # (  <font color="gray cloud">)
 
 
-# OLD below
+---
+
+---
+
+
+# OLD CONTENT BELOW, from another website
+
+___
 # Resources
 
 ### Carpentries readings
