@@ -4,20 +4,20 @@
 
 # Site settings
 # title appears in the header
-title: Teaching Tech Hands-on
+title: UI Glacier Dynamics lab manual
 # title-icon appears in the header to give some pizazz (leave blank for none)
 # choose from Font Awesome 5 free, https://fontawesome.com/icons?d=gallery&m=free
 # some options: fas fa-wrench; fas fa-cogs; fas fa-code; fas fa-chalkboard-teacher; fas fa-book-open
 title-icon: far fa-thumbs-up
 # description and keywords for meta tags
-description: "Teaching tips learned from Software Carpentry"
+description: "Tips and best practices for group members"
 keywords: "teaching, workshops, websites, gh-pages, jekyll"
 featured-image: "/images/bump-collaboration-colleagues-1068523-cr.jpg"
 
 # author settings for cc-by, appears in the footer
-author: evan will
+author: Timothy Bartholomaus
 pub_year: 2019
-github_username: evanwill
+github_username: tbartholomaus
 
 # add the full url for the github repository
 repo: "https://github.com/tbartholomaus/uiglaciology"
