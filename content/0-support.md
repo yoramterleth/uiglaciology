@@ -9,6 +9,16 @@ Our group strives to be a welcoming and inclusive community in which you, and I,
 We welcome members from all different backgrounds.
 
 
+<span style="color:orange;">Word orange</span>
+
+<p style='color:red'>This is some red text.</p>
+
+<font color="red">This is some text!</font>
+These are <b style='color:red'>red words</b>.
+
+<font color="gray cloud">
+
+
 # OLD below
 # Resources
 
@@ -25,6 +35,7 @@ We welcome members from all different backgrounds.
 - Jacobs, et al. "Experiences with efficient methodologies for teaching computer programming to geoscientists". [arXiv:1505.05425](https://arxiv.org/abs/1505.05425)
 
 # Reference
+</font>
 
 ### GitHub <span class="fab fa-github"></span>
 
