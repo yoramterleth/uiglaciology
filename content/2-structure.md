@@ -37,11 +37,12 @@ On linux, which is the operating system running on kennicott, there are a few co
 
 These useful commands, with some common flags include:
 ```
-pwd
-cd
-ls -l -h
+pwd            # show the present working directory
+cd             # change the directory
+ls -l -h       # list the files enclosed within the present directory
 ls | head -20  # for listing enclosed files, piping the output to head, 
                #    and then showing just the first 20 files in the directory
+mv             # move or rename a file or directory
 du -h -d 2     # for identifying the amount of disk space in directories
 tree -L 2      # for creating a graphical output of a directory structure
 ```
