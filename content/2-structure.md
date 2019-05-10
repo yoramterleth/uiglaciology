@@ -5,7 +5,7 @@ nav: true
 
 # File Structure and Organization
 
-Use OneDrive to back up your work, and keep it synchronized between different computers.
+Use OneDrive to back up your work, and keep it synchronized between different computers.  OneDrive is Microsoft's answer to Dropbox, or Google Drive.  Grad students get a significant amount of free storage (___ Gb)- don't hesitate to make the most of it.
 
 ## On kennicott
 
@@ -16,7 +16,8 @@ There are three fundamental directories on kennicott:
     - at `/data/stor/proj/`
 - The home directory
     - at `~` or `/home/user_name`, in which `user_name` is your user name, for logging into kennicott, for example your first initial and last name, run together without spaces.
-    
+
+
 ### basic_data
 basic_data is where unmodified, broadly useful data, are stored.  Filenames shouldn't be renamed- they should be retained as downloaded or received.  Metadata should be stored with the data.
 
@@ -25,6 +26,9 @@ proj is for individual projects that each of us are working on.  This is where a
 
 ### Home directory
 Tim recommends against using this directory for most purposes.  It is not accessible to others under most circumstances.  It's better to work on projects in a transparent, centralized, and accessible way.
+
+## On your local computer
+Don't do significant computing on your local computer if it's not being backed up on OneDrive.  Whenever possible, do your work on kennicott.
 
 # OLD Below
 
