@@ -11,7 +11,7 @@ The goal of this website is that it serve as a communal resource of best practic
 
 ## Making this site more useful
 Everyone should feel able and obligated to update the site, using the standards of github.com, by issuing a pull request.  In order to make modifications to these pages:
-1. Go to the [content subdirectory of github.com/tbartholomaus/uiglaciology/](https://github.com/tbartholomaus/uiglaciology/tree/master/content)
+1. Go to the ['content' subdirectory of github.com/tbartholomaus/uiglaciology/](https://github.com/tbartholomaus/uiglaciology/tree/master/content)
 2. Log into github with your username (this may happen automatically).
 3. Click on the title of the page you would like to modify, such as `3-code.md`
 4. Near the top, next to Raw Blame History, you'll see a pencil.  Click the pencil to open the editor for the page.
