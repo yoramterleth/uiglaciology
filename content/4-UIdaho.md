@@ -10,12 +10,16 @@ nav: true
 - Get your lab key from Terry.
 - Get your VandalCard set up for entry after-hours to McClure.
 
-## After your first year
+### After a couple months
+- Apply to become a UI van driver- speak to Terry about taking the defensive driving course.
+
+## In April of your first year
 - Form a committee to help guide you through your graduate career.
 - Create a graduate study plan and file it with the graduate school.
 
 ## Graduating
 - Apply to graduate.
+- Format your thesis carefully.
 
 
 # OLD Below
