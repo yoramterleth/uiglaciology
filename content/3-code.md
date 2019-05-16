@@ -18,7 +18,7 @@ If you want to use python on kennicott, after you log in, type `conda activate`.
 1. Loop Functions: useful when using `for` loops
 - `zip`
 
-  zip function zips two lists of the same length together so that you can iterate through both at the same time. 
+  zip function zips two lists of the same length together so that you can iterate through both at the same time.  This function is especially handy when plotting multiple subplots in one loop where you want to specify different axes labels, xticks, etc as you can zip these together and just iterate through once.
   
   Example:
 
@@ -37,9 +37,6 @@ If you want to use python on kennicott, after you log in, type `conda activate`.
    4 d
    5 e
    ```
-
-    
-- `zip` function is especially handy when plotting multiple subplots in one loop where you want to specify different axes labels, xticks, etc as you can zip these together and just iterate through once.
 
 - `enumerate`
 
