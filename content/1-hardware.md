@@ -8,7 +8,7 @@ We make a distinction between the server, kennicott, which is a powerful compute
 
 An important concept is that different computers, like kennicott, can be operated from a different computer.
 
-kennicott can be accessed via a terminal and ssh (including with putty, from a Windows machine), or, alternately it can be mounted via samba to a local computer filesystem.
+kennicott can be accessed via a terminal and ssh (including with putty, from a Windows machine), or, alternately it can be mounted via samba to a local computer filesystem. U
 
-Do most computing on the group server kennicott.
+We do most computing on the group server kennicott where we can access eachother's scripts and access group datasets.
 
