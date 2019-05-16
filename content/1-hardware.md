@@ -10,5 +10,5 @@ An important concept is that different computers, like kennicott, can be operate
 
 kennicott can be accessed via a terminal and ssh (including with putty, from a Windows machine), or, alternately it can be mounted via samba to a local computer filesystem. U
 
-We do most computing on the group server kennicott where we can access eachother's scripts and access group datasets.
+We do most computing on the group server kennicott where we can access each other's scripts and access group datasets.
 
