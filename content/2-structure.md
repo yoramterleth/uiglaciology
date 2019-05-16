@@ -16,7 +16,8 @@ There are three fundamental directories on kennicott:
     - at `/data/stor/proj/`
 - The home directory
     - at `~` or `/home/user_name`, in which `user_name` is your user name, for logging into kennicott, for example your first initial and last name, run together without spaces.
-
+    
+ #TEST SWAN_PULL
 
 ### basic_data
 basic_data is where unmodified, broadly useful data, are stored.  Filenames shouldn't be renamed- they should be retained as downloaded or received.  Metadata should be stored with the data.
