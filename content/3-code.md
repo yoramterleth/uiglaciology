@@ -31,12 +31,12 @@ If you want to use python on kennicott, after you log in, type `conda activate`.
     
   Output:
    ```
-     1 a
-     2 b    
-     3 c
-     4 d
-     5 e
-    ```
+   1 a
+   2 b    
+   3 c
+   4 d
+   5 e
+   ```
 
     
 - `zip` function is especially handy when plotting multiple subplots in one loop where you want to specify different axes labels, xticks, etc as you can zip these together and just iterate through once.
