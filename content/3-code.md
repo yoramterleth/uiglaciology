@@ -14,7 +14,7 @@ If you want to use python on kennicott, after you log in, type `conda activate`.
 
 
 
-# Helpful native Python functions
+## Helpful native Python functions
 1. Loop Functions: useful when using `for` loops
 - `zip`
 
@@ -69,7 +69,7 @@ If you want to use python on kennicott, after you log in, type `conda activate`.
 - `np.array((data, dtype=int))`
 - `np.array((data, dtype=np.float64))`
 
-# Helpful Python Modules
+## Helpful Python Modules
 1. os module
 - `os.listdir(directory_path)`
 - `os.path.join(path_stem, filename)`
