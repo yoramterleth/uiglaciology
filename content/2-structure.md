@@ -24,7 +24,9 @@ basic_data is where unmodified, broadly useful data, are stored.  Filenames shou
 When possible, simple, minimalist scripts that access and perhaps plot these data can and should be stored here as well, with sufficient commenting in the script header.  Minimalist, generic scripts that are useful to others reduce the "startup costs" of working with the data.
 
 ### proj
-proj is for individual projects that each of us are working on.  This is where any derived data or analysed data should go that contributes to a specific project, but is unlikely to be useful to others not working on the project.  Subdirectories of `proj` should have a name associated with a specific effort, at the scale aimed at potential publication.  Each of these specific efforts should then have additional subdirectories oriented around specific analyses that contribute to the effort, for instance, different data types, models, folders for scripts, folders for figures, etc.  An example of this heierarchical structure can be found in the directory `proj/Calv_Val`.
+proj is for individual projects that each of us are working on.  This is where any derived data or analysed data should go that contributes to a specific project, but is unlikely to be useful to others not working on the project.  Subdirectories of `proj` should have a name associated with a specific effort, at the scale aimed at potential publication.
+
+Each of these specific efforts should then have additional subdirectories oriented around specific analyses that contribute to the effort, for instance, different data types, models, folders for scripts, folders for figures, etc.  An example of this heierarchical structure can be found in the directory `proj/Calv_Val`. Any scripts used to produce these analyses should be stored with the analysis output in a straightforward way, by which output can be intuitively linked back to the scripts that created them.
 
 ### Home directory
 Tim recommends against using this directory for most purposes.  It is not accessible to others under most circumstances.  It's better to work on projects in a transparent, centralized, and accessible way.
