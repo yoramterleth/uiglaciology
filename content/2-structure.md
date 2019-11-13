@@ -1,5 +1,5 @@
 ---
-title: Structure
+title: File Organization
 nav: true
 ---
 
@@ -9,13 +9,13 @@ Use OneDrive to back up your work, and keep it synchronized between different co
 
 ## On kennicott
 
-There are three fundamental directories on kennicott:
+There are three fundamental directories on `kennicott`:
 - basic_data
     - at `/data/stor/basic_data/`
 - proj
     - at `/data/stor/proj/`
 - The home directory
-    - at `~` or `/home/user_name`, in which `user_name` is your user name, for logging into kennicott, for example your first initial and last name, run together without spaces.
+    - at `~` or `/home/user_name`, in which `user_name` is your user name, for logging into `kennicott`, for example your first initial and last name, run together without spaces.
 
 
 ### basic_data
@@ -31,10 +31,10 @@ Each of these specific efforts should then have additional subdirectories orient
 ### Home directory
 Tim recommends against using this directory for most purposes.  It is not accessible to others under most circumstances.  It's better to work on projects in a transparent, centralized, and accessible way.
 
-### Backups on kennicott
-basic_data, proj, and your home directory are backed up annually on the first of the year, as well as monthly and daily.  Monthly snapshots of the data are retained for 6 months and daily snapshots of the data are retained for 8 days only.  As a result, changes and deletions to files in these locations can be undone/recovered if identified quickly enough, while a snapshot exists of the file system.  If you need files recovered, please contact Tim or [Benji Oswald](https://crc.ibest.uidaho.edu/contact.html) at the [CRC of IBEST](https://crc.ibest.uidaho.edu/index.html) as quickly as possible. Existing snapshots on kennicott can be identified by typing `zfs list -t snapshot` at the terminal.
+### Backups on `kennicott`
+basic_data, proj, and your home directory are backed up annually on the first of the year, as well as monthly and daily.  These backups are stored locally, on `kennicott` itself.  Monthly snapshots of the data are retained for 6 months and daily snapshots of the data are retained for 8 days only.  As a result, changes and deletions to files in these locations can be undone/recovered if identified quickly enough, while a snapshot exists of the file system.  If you need files recovered, please contact Tim or [Benji Oswald](https://crc.ibest.uidaho.edu/contact.html) at the [CRC of IBEST](https://crc.ibest.uidaho.edu/index.html) as quickly as possible. Existing snapshots on `kennicott` can be identified by typing `zfs list -t snapshot` at the terminal.
 
-Hard drives on kennicott are currently mirrored, to provide redundancy in the event of hard drive failure.  As of May 2019, Tim is also pursuing offsite storage, outside of McClure, as an additional source of data security and redundancy.
+Hard drives on `kennicott` are currently mirrored, to provide redundancy in the event of a single hard drive failure.  In the event of a catastrophic loss of `kennicott`, data are also backed up offsite, via the cloud storage system Crashplan.  This system stores recent backups of files every 8 hours, and increasingly sparse backups until backups are stored monthly, in perpetuity.
 
 ## On your local computer
 Don't do significant computing on your local computer if it's not being backed up on OneDrive.  Whenever possible, do your work on kennicott.
