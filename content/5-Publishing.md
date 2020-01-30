@@ -19,9 +19,9 @@ Here are some checklists for getting your awesome work published.  You can print
 
 - [ ] Leave the submitted version as it is and copy it into a new version that will be the revision.  At the end of the process, we’ll compare the two versions and make that the “tracked changes version”, highlighting all changes since the initial submission.
 
-- [ ] Review all the comments relatively quickly first.  Come up with a short list of more significant comments that are going to require more significant work and head scratching.  Spend some time thinking about the plan of action to respond to these comments, then send to Tim (and maybe also co-authors, depending on how engaged the co-authors are) for discussion and strategizing.
+[ ] Review all the comments relatively quickly first.  Come up with a short list of more significant comments that are going to require more significant work and head scratching.  Spend some time thinking about the plan of action to respond to these comments, then send to Tim (and maybe also co-authors, depending on how engaged the co-authors are) for discussion and strategizing.
 
-- [ ] Copy all of the comments from the editors and three reviewers into a single word document called “response to reviews."  Color every single comment blue, reduce the font size by a point, and use a sans serif font like arial or helvetica.  For your response, use black, serif (Times New Roman) font of a normal font size.  Describe this definition scheme at the top of the response to reviews, with text such as:
+[ ] Copy all of the comments from the editors and three reviewers into a single word document called “response to reviews."  Color every single comment blue, reduce the font size by a point, and use a sans serif font like arial or helvetica.  For your response, use black, serif (Times New Roman) font of a normal font size.  Describe this definition scheme at the top of the response to reviews, with text such as:
 
 <blockquote>
 We thank the reviewer and editor for their thoughtful, careful, and constructive reviews.  We address each of their comments in the document below, in which the original reviewer comments are in blue, sans serif font, and our responses to each comment are in black, serif font.
