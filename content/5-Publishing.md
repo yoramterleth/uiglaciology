@@ -22,11 +22,12 @@ Here are some checklists for getting your awesome work published.  You can print
 - [ ] Review all the comments relatively quickly first.  Come up with a short list of more significant comments that are going to require more significant work and head scratching.  Spend some time thinking about the plan of action to respond to these comments, then send to Tim (and maybe also co-authors, depending on how engaged the co-authors are) for discussion and strategizing.
 
 - [ ] Copy all of the comments from the editors and three reviewers into a single word document called “response to reviews."  Color every single comment blue, reduce the font size by a point, and use a sans serif font like arial or helvetica.  For your response, use black, serif (Times New Roman) font of a normal font size.  Describe this definition scheme at the top of the response to reviews, with text such as:
+
 > We thank the reviewer and editor for their thoughtful, careful, and constructive reviews.  We address each of their comments in the document below, in which the original reviewer comments are in blue, sans serif font, and our responses to each comment are in black, serif font.
 
-An example response to reviews document is [here, that stemmed from reviews of Bartholomaus et al., 2015](content/files/Response_to_reviews.docx); you can use this as a template.  The response to reviews should be written in "business formal letter" language, that is respectful, appreciative, and kind.  As though you are applying for a job.  Even nasty, hard-to-deal with comments should be responded to with, "The reviewer raises an important and challenging point, and we thank the reviewer for their critique.  In response to this point we have ..."
+      An example response to reviews document is [here, that stemmed from reviews of Bartholomaus et al., 2015](../content/files/Response_to_reviews.docx); you can use this as a template.  The response to reviews should be written in "business formal letter" language, that is respectful, appreciative, and kind.  As though you are applying for a job.  Even nasty, hard-to-deal with comments should be responded to with, "The reviewer raises an important and challenging point, and we thank the reviewer for their critique.  In response to this point we have ..."
 
-Short responses to very short comments, like typos, can be effective after the formal tone has been established (i.e., "Done").
+      Short responses to very short comments, like typos, can be effective after the formal tone has been established (i.e., "Done").
 
 - [ ] In the Revised document, "track changes" in Word for each change you make, and, simultaneously, fill in the Response to Reviews document, describing each change and how it responds to the reviewer comment.  Put in "comments" to spark discussion with co-authors, and/or ask questions.
 
