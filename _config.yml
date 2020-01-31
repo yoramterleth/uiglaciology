@@ -8,15 +8,15 @@ title: UI Glacier Dynamics lab manual
 # title-icon appears in the header to give some pizazz (leave blank for none)
 # choose from Font Awesome 5 free, https://fontawesome.com/icons?d=gallery&m=free
 # some options: fas fa-wrench; fas fa-cogs; fas fa-code; fas fa-chalkboard-teacher; fas fa-book-open
-title-icon: far fa-thumbs-up
+title-icon: fas fa-skiing-nordic
 # description and keywords for meta tags
 description: "Tips and best practices for group members"
-keywords: "teaching, workshops, websites, gh-pages, jekyll"
+keywords: "manual, lab group, science, collaboration"
 featured-image: "/images/bump-collaboration-colleagues-1068523-cr.jpg"
 
 # author settings for cc-by, appears in the footer
 author: Timothy Bartholomaus
-pub_year: 2019
+pub_year: 2020
 github_username: tbartholomaus
 
 # add the full url for the github repository
@@ -46,4 +46,5 @@ defaults:
       layout: "default"
       permalink: /:basename/
 # Build settings
-markdown: kramdown
+markdown: GFM 
+#kramdown
