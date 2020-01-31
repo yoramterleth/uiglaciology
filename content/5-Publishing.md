@@ -24,7 +24,7 @@ We do great work in our lab group, and we expect to have that work published dur
 - [ ]  Copy all of the comments from the editors and three reviewers into a single word document called “response to reviews."  Color every single comment blue, reduce the font size by a point, and use a sans serif font like arial or helvetica.  For your response, use black, serif (Times New Roman) font of a normal font size.  Describe this definition scheme at the top of the response to reviews, with text such as:
 
 <blockquote><p>
-We thank the reviewer and editor for their thoughtful, careful, and constructive reviews.  We address each of their comments in the document below, in which the original reviewer comments are in blue, sans serif font, and our responses to each comment are in black, serif font.
+"We thank the reviewer and editor for their thoughtful, careful, and constructive reviews.  We address each of their comments in the document below, in which the original reviewer comments are in blue, sans serif font, and our responses to each comment are in black, serif font."
 </p></blockquote>
 
    An example response to reviews document is [here, that stemmed from reviews of Bartholomaus et al., 2015](../content/files/Response_to_reviews.docx); you can use this as a template.  The response to reviews should be written in "business formal letter" language, that is respectful, appreciative, and kind.  As though you are applying for a job.  Even nasty, hard-to-deal-with comments should be responded to with, "The reviewer raises an important and thoughtful point, and we thank the reviewer for their critique.  In response to this point we have ..."
