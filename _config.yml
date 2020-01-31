@@ -47,3 +47,4 @@ defaults:
       permalink: /:basename/
 # Build settings
 markdown: kramdown
+theme: jekyll-theme-slate
