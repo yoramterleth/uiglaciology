@@ -9,12 +9,15 @@ Below is a list of tasks and activities that will help keep your time in grad sc
 
 ## On arriving at UI
 - Get your VandalCard/student ID card.
-- Get your lab key from Terry.
 - Get your VandalCard set up for entry after-hours to McClure.
+- Get your lab key from Renee.
+- Complete mandatory trainings on BbLearn (Defensive Driving, Lab Safety, Safety Matters, etc.).
+    -Speak to Renee about which courses are required.
 
-
-### After a couple months
-- Apply to become a UI van driver- speak to Terry about taking the defensive driving course.
+### Other helpful info
+- Full-time grad student status is defined by registering for a minimum of 9 credits.
+    - Work with Tim to build a class schedule/outline.
+- If new to GitHub, this guide (https://guides.github.com/activities/hello-world/) is an excellent resource to get started. 
 
 ## In April of your first year
 - Form a committee to help guide you through your graduate career.
