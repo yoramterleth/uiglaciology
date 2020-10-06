@@ -33,13 +33,11 @@ If you want to use python on kennicott, after you log in, type `conda activate`.
 Our lab uses two different programs or front-ends for interacting with python, and writing, running, debugging, and plotting tasks.
 
 These two approaches are
-+ Spyder
++ **Spyder**
+ You can open this program by typing `spyder` at the terminal or Anaconda Prompt window.
 
-You can open this program by typing `spyder` at the terminal or Anaconda Prompt window.
-
-+ Jupyter Lab
-
-Jupyter Lab runs in a web browser window and you can open it by typing `jupyter lab` at the terminal or Anaconda Prompt.
++ **Jupyter Lab**
+ Jupyter Lab runs in a web browser window and you can open it by typing `jupyter lab` at the terminal or Anaconda Prompt.
 
 
 
@@ -101,8 +99,7 @@ Jupyter Lab runs in a web browser window and you can open it by typing `jupyter 
 
 
 </details>
-
-
+<br/>
 
 
 ## Keeping a script running overnight (or other long periods)
