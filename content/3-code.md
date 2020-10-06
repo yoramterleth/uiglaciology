@@ -18,7 +18,10 @@ Our lab generally uses the spyder integrated development environment for writing
 
 
 
-## Helpful native Python functions
+
+<details><summary>Helpful native Python functions</summary>
+<p>
+
 1. Loop Functions: useful when using `for` loops
 - `zip`
 
@@ -70,10 +73,13 @@ Our lab generally uses the spyder integrated development environment for writing
 - `np.array((data, dtype=int))`
 - `np.array((data, dtype=np.float64))`
 
-## Helpful Python Modules
-1. os module
-- `os.listdir(directory_path)`
-- `os.path.join(path_stem, filename)`
+
+</p>
+</details>
+
+## Helpful native Python functions
+
+
 
 ## Keeping a script running overnight (or other long periods)
 You might try and take advantage of kennicott's resources to run a script overnight, or for some other long period of time, then have the script write the output to some other kind of file, like text, csv, pickle, or npz.  If logged into kennicott via ssh, sometimes, if the connection isn't "active" in some way, you'll get booted off of kennicott.  And when you get booted off kennicott, the process (aka, application or script) that you're running and controlling via the ssh connection will be "killed" when you apparently "hang up" the connection on kennicott.  In that case, any work stored in memory is lost.
