@@ -3,6 +3,15 @@ title: Code
 nav: true
 ---
 
+
+# How to get started on your personal computer with python, Anaconda, and these environments
+1. Download and install the [Anaconda individual edition](https://docs.anaconda.com/anaconda/install/)
+If you're given the option, you'll likely want a 64 bit version (as compared to a 32 bit version).
+Tim doesn't have any experience with PyCharm, and so hasn't chosen to install it himself.
+
+2. Set up your conda environments
+
+
 # Working with python
 Google is your friend for learning how to code.  Tim also recommends [scipy-lectures.org](https://scipy-lectures.org/) as a good consistent primer on a lot of fundamental coding tasks. The [python website](https://wiki.python.org/moin/BeginnersGuide) also provides useful tutorials that are helpful for beginners.
 
@@ -18,9 +27,10 @@ Our lab generally uses the spyder integrated development environment for writing
 
 
 
+## Helpful native Python functions
 
-<details><summary>Helpful native Python functions</summary>
-<p>
+<details><summary>Click for dropdown</summary>
+<xxp>
 
 1. Loop Functions: useful when using `for` loops
 - `zip`
@@ -74,10 +84,9 @@ Our lab generally uses the spyder integrated development environment for writing
 - `np.array((data, dtype=np.float64))`
 
 
-</p>
+<xx/p>
 </details>
 
-## Helpful native Python functions
 
 
 
