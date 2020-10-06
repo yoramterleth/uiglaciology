@@ -8,9 +8,9 @@ nav: true
 
 ## How to get started on your personal computer with python, Anaconda, and environments
 1. _Download and install the [Anaconda individual edition](https://docs.anaconda.com/anaconda/install/)_<br/>
- Anaconda/conda both installs python and creates a system by which you can expand python's functionality through "packages" or "modules." You can [learn more about managing and installing packages here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html#).<br/>
- If you're given the option, you'll likely want a 64 bit version (as compared to a 32 bit version). If given the option, use python 3, not python 2. python 2 is obsolete. Tim doesn't have any experience with PyCharm, and so hasn't chosen to install it himself.<br/>
- **Before you proceed,** review the [Getting Started with Conda website](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html).<br/>
+  Anaconda/conda both installs python and creates a system by which you can expand python's functionality through "packages" or "modules." You can [learn more about managing and installing packages here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html#).<br/><br/>
+  If you're given the option, you'll likely want a 64 bit version (as compared to a 32 bit version). If given the option, use python 3, not python 2. python 2 is obsolete. Tim doesn't have any experience with PyCharm, and so hasn't chosen to install it himself.<br/><br/>
+  **Before you proceed,** review the [Getting Started with Conda website](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html).<br/>
   
 
 2. _Set up your conda environments_<br/>
@@ -36,14 +36,23 @@ These two approaches are
 |**Spyder**|**Jupyter Lab**|
 |--|--|
 | You can open this program by typing `spyder` at the terminal or Anaconda Prompt window. | Jupyter Lab runs in a web browser window and you can open it by typing `jupyter lab` at the terminal or Anaconda Prompt.|
-| {% include figure.html img="spyder.png" alt="A view of the spyder window" width="300px" %} | {% include figure.html img="Rian-Tristan-Danny.jpg" alt="Rian, Tristan, and Danny in the lab" width="300px" %} |
 
+
+
+| Syntax | Description |
+| --- | ----------- |
+| Header | Title |
+| Paragraph | Text |
 
 + **Spyder**<br/>
  You can open this program by typing `spyder` at the terminal or Anaconda Prompt window.
 
 + **Jupyter Lab**<br/>
  Jupyter Lab runs in a web browser window and you can open it by typing `jupyter lab` at the terminal or Anaconda Prompt.
+
+
+
+{% include figure.html img="spyder.jpg" alt="Rian, Tristan, and Danny in the lab" width="300px" %}
 
 
 
