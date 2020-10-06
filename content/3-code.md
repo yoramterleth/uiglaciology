@@ -8,10 +8,9 @@ nav: true
 
 ## How to get started on your personal computer with python, Anaconda, and environments
 1. Download and install the [Anaconda individual edition](https://docs.anaconda.com/anaconda/install/)
-  Anaconda/conda both installs python and creates a system by which you can expand python's functionality through "packages" or "modules." You can [learn more about managing and installing packages here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html#).
-  If you're given the option, you'll likely want a 64 bit version (as compared to a 32 bit version). If given the option, use python 3, not python 2. python 2 is obsolete.
-Tim doesn't have any experience with PyCharm, and so hasn't chosen to install it himself.
-  **Before you proceed,** review the [Getting Started with Conda website](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html).
+ Anaconda/conda both installs python and creates a system by which you can expand python's functionality through "packages" or "modules." You can [learn more about managing and installing packages here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html#).
+ If you're given the option, you'll likely want a 64 bit version (as compared to a 32 bit version). If given the option, use python 3, not python 2. python 2 is obsolete. Tim doesn't have any experience with PyCharm, and so hasn't chosen to install it himself.
+ **Before you proceed,** review the [Getting Started with Conda website](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html).
   
 
 2. Set up your conda environments
@@ -21,8 +20,8 @@ Tim doesn't have any experience with PyCharm, and so hasn't chosen to install it
   You can also [learn more about conda environments below](https://github.com/tbartholomaus/uiglaciology/blob/master/content/3-code.md#environments-internally-consistent-sets-of-python-modules).
 
 3. Learning python
-  If you are new to python, or just need a consistent primer for what's involved in python's core functionality, Tim recommends starting with [scipy-lectures.org](https://scipy-lectures.org/).  You can use the website itself or download the entire lecture set as a 600+ page PDF and scroll through it (Tim's preferred method).  To start, read and work through Chap 1 ("Python scientific computing ecosystem"), Chap 2 ("The Python language" sections "First Steps," "Basic types," and "Control Flow"), and then all of Chap 4 ("NumPy") and Chap 5 ("Matplotlib").
-  The [python website](https://wiki.python.org/moin/BeginnersGuide) also provides useful tutorials that are helpful for beginners.
+  If you are new to python, or just need a consistent primer for what's involved in python's core functionality, Tim recommends starting with [scipy-lectures.org](https://scipy-lectures.org/).  You can use the website itself or download the entire lecture set as a 600+ page PDF and scroll through it (Tim's preferred method).  To start, read and work through Chap 1 ("Python scientific computing ecosystem"), Chap 2 ("The Python language" sections "First Steps," "Basic types," and "Control Flow"), and then all of Chap 4 ("NumPy") and Chap 5 ("Matplotlib"). <br/>
+  The [python website](https://wiki.python.org/moin/BeginnersGuide) also provides useful tutorials that are helpful for beginners. <br/>
   Once you are past the basics, googling for answers is essential.  Stack Overflow and Stackexchange are invaluable tools for professional, beginner, and enthusiastic programmers. Both are question and answer platforms used across the programming community to solve coding problems collaboratively.	 They will frequently come up in Google searches.
 
 
