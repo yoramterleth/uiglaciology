@@ -42,7 +42,7 @@ These two approaches are:
 | :-: | :-: |
 | You can open this program by typing `spyder` at the terminal or Anaconda Prompt window. | Jupyter Lab runs in a web browser window and you can open it by typing `jupyter lab` at the terminal or Anaconda Prompt.|
 | Spyder is generally a little better for complete scripting, and writing out more complicated computing workflows. Spyder is very similar to the Matlab user interface. | Jupyter Lab is potentially more useful for data exploration, and it allows text and figures to be stored right with the code.|
-| ![Spyder screenshot](../images/spyder.png) | ![Jupyter screenshot](../images/jupyter.png =230x) |
+| ![Spyder screenshot](../images/spyder.png =250x200) | ![Jupyter screenshot](../images/jupyter.png =250x230) |
 
 
  =250x
