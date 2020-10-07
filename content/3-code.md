@@ -46,12 +46,30 @@ These two approaches are:
 
 
 
+## Keeping a script running overnight (or other long periods)
+
+You might try and take advantage of kennicott's resources to run a script overnight, or for some other long period of time, then have the script write the output to some other kind of file, like text, csv, pickle, or npz.  If logged into kennicott via ssh, sometimes, if the connection isn't "active" in some way, you'll get booted off of kennicott.  And when you get booted off kennicott, the process (aka, application or script) that you're running and controlling via the ssh connection will be "killed" when you apparently "hang up" the connection on kennicott.  In that case, any work stored in memory is lost.
+
+To get around the problem of hanging up on a process, 1) run the script directly from the terminal (rather than spyder), and 2) [use the `nohup` bash command](https://linux.101hacks.com/unix/nohup-command/) within the linux terminal window, to keep the script running in case of hangup, and 3) keep a close eye on the processes that you're running.  One example of this is a script Tim wrote to process seismic data.  See the [github README.md file](https://github.com/tbartholomaus/med_spec) for more information on this application, and the referenced python scripts for examples of how this works.  
+
+1) To execute a script from the terminal, rather than within spyder, you'll have to [let the computer know how to read the script](https://stackoverflow.com/questions/27494758/how-do-i-make-a-python-script-executable) by adding specific header information to the top of the script you want to run, such as 
+   ```
+   #!/opt/anaconda/envs/seisenv/bin python
+   # -*- coding: utf-8 -*-
+   ```
+   In the above, case, the first line, known as a "shebang" indicates what specific conda environment the script should be run from.
+
+2) An example of using nohup is
+   ```
+   nohup python -u ./my_py_script.py > File_to_collect_output.log &  
+   ```
+   which will allow the `my_py_script.py` to run on kennicott and prevent the server from killing the process if the server becomes disconnected.  The `-u` flag forces the text output of the python script to stdout (i.e., 'standard out', which is typically to a computer monitor), so that it can then be redirected (with `>`) to a plain text log file (`File_to_collect_output.log` -- the `log` extension is arbitrary, and could be anything).  Ending the line with an `&` moves the running command (aka, 'a process') into the background, so that the terminal window can still be controlled.
+
+3) When you begin a command in the background, with `&`, at the terminal just below your command, you'll see a 4 to 6 digit number.  This number is the PID number, and is the number that the computer uses to track and identify the process you just launched.  If you're moving commands/processes into the background, you should be aware that some of these processes can become forgotten, zombie processes, that tie up computer resources and never actually quit or finishe running.  If you start using nohup, it's your responsibility to keep an eye on the system resources you're using.  You can view all the processes you're responsible for by typing at the linux terminal: `ps -x`.  This will show a list of processes attributed to you, their PID numbers, and the commands that generated these processes.  To terminate a process and free up computer resources, use the command `kill`.  For example, to end processes 2502 and 2507, type `kill 2502 2507`.  `top` is another useful command that dynamically updates to show you all the processes that are running, who owns them, and what computer resources they're consuming.  Another way to use ps is `ps -eo pid,etime,comm`, that puts some focus on the elapsed time of each process.
+
 
 
 ## Helpful native Python functions
-
-<details>
-<summary>Click for dropdown</summary>
 
 1. Loop Functions: useful when using `for` loops
 - `zip`
@@ -105,34 +123,6 @@ These two approaches are:
 - `np.array((data, dtype=np.float64))`
 
 
-</details>
-<br/>
-
-
-## Keeping a script running overnight (or other long periods)
-<details>
-<summary>Click for dropdown</summary>
-You might try and take advantage of kennicott's resources to run a script overnight, or for some other long period of time, then have the script write the output to some other kind of file, like text, csv, pickle, or npz.  If logged into kennicott via ssh, sometimes, if the connection isn't "active" in some way, you'll get booted off of kennicott.  And when you get booted off kennicott, the process (aka, application or script) that you're running and controlling via the ssh connection will be "killed" when you apparently "hang up" the connection on kennicott.  In that case, any work stored in memory is lost.
-
-To get around the problem of hanging up on a process, 1) run the script directly from the terminal (rather than spyder), and 2) [use the `nohup` bash command](https://linux.101hacks.com/unix/nohup-command/) within the linux terminal window, to keep the script running in case of hangup, and 3) keep a close eye on the processes that you're running.  One example of this is a script Tim wrote to process seismic data.  See the [github README.md file](https://github.com/tbartholomaus/med_spec) for more information on this application, and the referenced python scripts for examples of how this works.  
-
-1) To execute a script from the terminal, rather than within spyder, you'll have to [let the computer know how to read the script](https://stackoverflow.com/questions/27494758/how-do-i-make-a-python-script-executable) by adding specific header information to the top of the script you want to run, such as 
-   ```
-   #!/opt/anaconda/envs/seisenv/bin python
-   # -*- coding: utf-8 -*-
-   ```
-   In the above, case, the first line, known as a "shebang" indicates what specific conda environment the script should be run from.
-
-2) An example of using nohup is
-   ```
-   nohup python -u ./my_py_script.py > File_to_collect_output.log &  
-   ```
-   which will allow the `my_py_script.py` to run on kennicott and prevent the server from killing the process if the server becomes disconnected.  The `-u` flag forces the text output of the python script to stdout (i.e., 'standard out', which is typically to a computer monitor), so that it can then be redirected (with `>`) to a plain text log file (`File_to_collect_output.log` -- the `log` extension is arbitrary, and could be anything).  Ending the line with an `&` moves the running command (aka, 'a process') into the background, so that the terminal window can still be controlled.
-
-3) When you begin a command in the background, with `&`, at the terminal just below your command, you'll see a 4 to 6 digit number.  This number is the PID number, and is the number that the computer uses to track and identify the process you just launched.  If you're moving commands/processes into the background, you should be aware that some of these processes can become forgotten, zombie processes, that tie up computer resources and never actually quit or finishe running.  If you start using nohup, it's your responsibility to keep an eye on the system resources you're using.  You can view all the processes you're responsible for by typing at the linux terminal: `ps -x`.  This will show a list of processes attributed to you, their PID numbers, and the commands that generated these processes.  To terminate a process and free up computer resources, use the command `kill`.  For example, to end processes 2502 and 2507, type `kill 2502 2507`.  `top` is another useful command that dynamically updates to show you all the processes that are running, who owns them, and what computer resources they're consuming.  Another way to use ps is `ps -eo pid,etime,comm`, that puts some focus on the elapsed time of each process.
-
-</details>
-<br/>
 
 
 
