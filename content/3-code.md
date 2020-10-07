@@ -6,13 +6,13 @@ nav: true
 This page contains helpful tips for working with software, especially the python programming language.
 
 A table of contents for this page includes:
-+ [Python](https://github.com/tbartholomaus/uiglaciology/blob/master/content/3-code.md#python)
-  + [How to get started on your personal computer with python, Anaconda, and environments](https://github.com/tbartholomaus/uiglaciology/blob/master/content/3-code.md#how-to-get-started-on-your-personal-computer-with-python-anaconda-and-environments)
-  + [Environments: internally consistent sets of python modules](https://github.com/tbartholomaus/uiglaciology/blob/master/content/3-code.md#environments-internally-consistent-sets-of-python-modules)
-  + [Preferred python interface](https://github.com/tbartholomaus/uiglaciology/blob/master/content/3-code.md#preferred-python-interface)
-  + [Keeping a script running overnight (or other long periods)](https://github.com/tbartholomaus/uiglaciology/blob/master/content/3-code.md#keeping-a-script-running-overnight-or-other-long-periods)
-  + [Helpful native Python functions](https://github.com/tbartholomaus/uiglaciology/blob/master/content/3-code.md#helpful-native-python-functions)
-+ [Geographic information systems (GIS)](https://github.com/tbartholomaus/uiglaciology/blob/master/content/3-code.md#geographic-information-systems-gis)
++ [Python](https://tbartholomaus.github.io/uiglaciology/3-code#python)
+  + [How to get started on your personal computer with python, Anaconda, and environments](https://tbartholomaus.github.io/uiglaciology/3-code#how-to-get-started-on-your-personal-computer-with-python-anaconda-and-environments)
+  + [Environments: internally consistent sets of python modules](https://tbartholomaus.github.io/uiglaciology/3-code#environments-internally-consistent-sets-of-python-modules)
+  + [Preferred python interface](https://tbartholomaus.github.io/uiglaciology/3-code#preferred-python-interface)
+  + [Keeping a script running overnight (or other long periods)](https://tbartholomaus.github.io/uiglaciology/3-code#keeping-a-script-running-overnight-or-other-long-periods)
+  + [Helpful native Python functions](https://tbartholomaus.github.io/uiglaciology/3-code#helpful-native-python-functions)
++ [Geographic information systems (GIS)](https://tbartholomaus.github.io/uiglaciology/3-code#geographic-information-systems-gis)
 
 # Python
 <br/>
