@@ -5,6 +5,7 @@ nav: true
 
 
 # Python
+<br/>
 
 ## How to get started on your personal computer with python, Anaconda, and environments
 Here are four steps you can follow to start working with python:
@@ -24,8 +25,8 @@ Here are four steps you can follow to start working with python:
   Open either Spyder or Jupyter Lab to start a user-friendly interface for interacting with and coding python, and coding. <br/><br/>
 
 4. _Learning python_<br/><br/>
-  If you are new to python, or just need a consistent primer for what's involved in python's core functionality, Tim recommends starting with [scipy-lectures.org](https://scipy-lectures.org/).  You can use the website itself or download the entire lecture set as a 600+ page PDF and scroll through it (Tim's preferred method).  To start, read and work through Chap 1 ("Python scientific computing ecosystem"), Chap 2 ("The Python language" sections "First Steps," "Basic types," and "Control Flow"), and then all of Chap 4 ("NumPy") and Chap 5 ("Matplotlib"). <br/><br/>
-  The [python website](https://wiki.python.org/moin/BeginnersGuide) also provides useful tutorials that are helpful for beginners. <br/><br/>
+  If you are new to python, or just need a consistent primer for what's involved in python's core functionality, Tim recommends starting with [scipy-lectures.org](https://scipy-lectures.org/).  You can use the website itself or download the entire lecture set as a 600+ page PDF and scroll through it (Tim's preferred method).  To start, read and work through Chap 1 ("Python scientific computing ecosystem"), Chap 2 ("The Python language" sections "First Steps," "Basic types," and "Control Flow"), and then all of Chap 4 ("NumPy") and Chap 5 ("Matplotlib"). <br/>
+  The [python website](https://wiki.python.org/moin/BeginnersGuide) also provides useful tutorials that are helpful for beginners. <br/>
   Once you are past the basics, googling for answers is essential.  Stack Overflow and Stackexchange are invaluable tools for professional, beginner, and enthusiastic programmers. Both are question and answer platforms used across the programming community to solve coding problems collaboratively.	 They will frequently come up in Google searches.<br/>
 
 
@@ -38,13 +39,13 @@ Our lab uses two different programs or front-ends for interacting with python, a
 These two approaches are:
 
 |**Spyder**|**Jupyter Lab**|
-|--|--|
+| :-: | :-: |
 | You can open this program by typing `spyder` at the terminal or Anaconda Prompt window. | Jupyter Lab runs in a web browser window and you can open it by typing `jupyter lab` at the terminal or Anaconda Prompt.|
 | Spyder is generally a little better for complete scripting, and writing out more complicated computing workflows. Spyder is very similar to the Matlab user interface. | Jupyter Lab is potentially more useful for data exploration, and it allows text and figures to be stored right with the code.|
-| ![Spyder screenshot](../images/spyder.png =250x) | ![Jupyter screenshot](../images/jupyter.png =230x) |
+| ![Spyder screenshot](../images/spyder.png) | ![Jupyter screenshot](../images/jupyter.png =230x) |
 
 
-
+ =250x
 
 
 
