@@ -26,7 +26,7 @@ Here are four steps you can follow to start working with python:
   
 
 2. _Set up your conda environments_<br/><br/>
-  This step is technically optional, but recommended before you dive into new projects.  It is necessary if you plan to work with Jupyter Hub.<br/>
+  This step is technically optional, but recommended before you dive into new projects.  It is necessary if you plan to work with Jupyter Lab.<br/>
   Scientific computing with python is done using "packages" or "modules."  Some combinations of modules might be incompatible.  Anaconda helps maintain mutually consistent modules, but environments take this a step further.  By creating separate "environments," you create different virtual _workshops_ or _sandboxes_ in which all the tools are designed to work well together, and not conflict.<br/>
   Some of the environments that the UI Glacier Dynamics Lab (and Tim personally) uses for his projects are hosted on github [here](https://github.com/tbartholomaus/conda_envs).<br/>
   You can also [learn more about conda environments below](https://github.com/tbartholomaus/uiglaciology/blob/master/content/3-code.md#environments-internally-consistent-sets-of-python-modules).<br/>
