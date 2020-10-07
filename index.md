@@ -26,8 +26,3 @@ Everyone should feel able and obligated to update the site, using the standards 
 ------
 
 {% include credits.html %}
-
-### These pages are modeled on a website produced by Evan Will at the UI library
-Much of the content you'll find here is unmodified from Evan's original website: https://evanwill.github.io/tech-hands-on/
-
-
