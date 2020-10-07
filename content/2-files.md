@@ -5,7 +5,7 @@ nav: true
 
 # File Structure and Organization
 
-Use OneDrive to back up your work, and keep it synchronized between different computers.  OneDrive is Microsoft's answer to Dropbox, or Google Drive.  Grad students get a significant amount of free storage (___ Gb)- don't hesitate to make the most of it.
+Use OneDrive to back up your work, and keep it synchronized between different computers.  OneDrive is Microsoft's answer to Dropbox, or Google Drive.  Every student, faculty, and staff get a significant amount of free storage (5 Tb)- so don't hesitate to make the most of it.  You should configure your personal computer so that all your personal and work files are backed up continuously to the cloud via OneDrive.
 
 ## On kennicott
 
