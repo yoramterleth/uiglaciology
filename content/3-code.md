@@ -19,22 +19,22 @@ A table of contents for this page includes:
 
 ## How to get started on your personal computer with python, Anaconda, and environments
 Here are four steps you can follow to start working with python:
-1. _Download and install the [Anaconda individual edition](https://docs.anaconda.com/anaconda/install/)_<br/><br/>
+1. _Download and install the [Anaconda individual edition](https://docs.anaconda.com/anaconda/install/)_<br/>
     - Anaconda/conda both installs python and creates a system by which you can expand python's functionality through "packages" or "modules." You can [learn more about managing and installing packages here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html#).<br/>
     - If you're given the option, you'll likely want a 64 bit version (as compared to a 32 bit version). If given the option, use python 3, not python 2. python 2 is obsolete. Tim doesn't have any experience with PyCharm, and so hasn't chosen to install it himself.<br/>
     - **Before you proceed,** review the [Getting Started with Conda website](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html).<br/>
   
 
-2. _Set up your conda environments_<br/><br/>
+2. _Set up your conda environments_<br/>
     - This step is technically optional, but recommended before you dive into new projects.  It is necessary if you plan to work with Jupyter Lab.<br/>
     - Scientific computing with python is done using "packages" or "modules."  Some combinations of modules might be incompatible.  Anaconda helps maintain mutually consistent modules, but environments take this a step further.  By creating separate "environments," you create different virtual _workshops_ or _sandboxes_ in which all the tools are designed to work well together, and not conflict.<br/>
     - Some of the environments that the UI Glacier Dynamics Lab (and Tim personally) uses for his projects are hosted on github [here](https://github.com/tbartholomaus/conda_envs).<br/>
     - You can also [learn more about conda environments below](https://github.com/tbartholomaus/uiglaciology/blob/master/content/3-code.md#environments-internally-consistent-sets-of-python-modules).<br/>
 
-3. _Start coding_<br/><br/>
+3. _Start coding_<br/>
     - Open either Spyder or Jupyter Lab to start an interface for coding pythong. [More on these two options below](https://github.com/tbartholomaus/uiglaciology/blob/master/content/3-code.md#preferred-python-interface). If you're just getting started, Tim recommends Jupyter Lab.<br/>
 
-4. _Learning python_<br/><br/>
+4. _Learning python_<br/>
     - If you're new to programming and want to get started learning the python that's necessary for foundational work in the geosciences, Tim recommends starting with the course [Geo-Python](https://geo-python.github.io) from the University of Helsinki.  The syllabus is excellent, there are videos with instructions, clear text descriptions, and exercises to practice what you're learning. The [Earth Analytics Bootcamp course](https://www.earthdatascience.org/courses/earth-analytics-bootcamp/) from the CU Boulder Earth Lab also is excellent and has an associated online textbook for the course.<br/>
     - Tim has also had students successfully teach themselves python through various online education platforms such as EdX, Coursera, Udemy, and Educative.  Two courses that especially look good, and are targeted towards scientists (as compared to web developers) are [here at Educative](https://www.educative.io/courses/python-for-scientists-and-engineers) and [here at Udemy](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp).  These courses don't tend to be free (like Geo-Python and Earth Analytics Bootcamp above), but the structure and assignments might work well for some learners. The [python website](https://wiki.python.org/moin/BeginnersGuide) also provides useful tutorials that are helpful for beginners. <br/>
     - Tim's favorite go-to reference manual, with exhaustive examples and suggestions for coding if you're not sure where to start are the [SciPy lectures](https://scipy-lectures.org/). This manual provides a consistent primer for what's involved in python's core functionality and the modules you'll need to do science, but is more like reading a textbook than taking a classs.  You can use the website itself or download the entire lecture set as a 600+ page PDF and scroll through it (Tim's preferred method).  To get going, read and work through Chap 1 ("Python scientific computing ecosystem"), Chap 2 ("The Python language" sections "First Steps," "Basic types," and "Control Flow"), and then all of Chap 4 ("NumPy") and Chap 5 ("Matplotlib"). Don't just skim these sections, but actually have Jupyter Lab or Spyder open and execute the code, experimenting along the way.<br/>
