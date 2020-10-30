@@ -5,11 +5,11 @@ nav: true
 
 # File Structure and Organization
 
-Use OneDrive to back up your work, and keep it synchronized between different computers.  OneDrive is Microsoft's answer to Dropbox, or Google Drive.  Every student, faculty, and staff get a significant amount of free storage (5 Tb)- so don't hesitate to make the most of it.  You should configure your personal computer so that all your personal and work files are backed up continuously to the cloud via OneDrive.
+Use OneDrive to back up your work, and keep it synchronized between different computers.  OneDrive is Microsoft's answer to Dropbox, or Google Drive.  Every student, faculty, and staff get a significant amount of free storage (5 Tb)- so make the most of it.  You should configure your personal/work computer so that _every single piece of work_ that you do, for research, classes, and heck, even your personal files, are backed up continuously to the cloud via OneDrive.
 
 ## On kennicott
 
-There are three fundamental directories on kennicott:
+kennicott is the name of the lab group server that we use for powerful computing and data storage.  There are three fundamental directories on kennicott:
 - basic_data
     - at `/data/stor/basic_data/`
 - proj
@@ -19,7 +19,7 @@ There are three fundamental directories on kennicott:
 
 
 ### basic_data
-basic_data is where unmodified, broadly useful data, are stored.  Filenames shouldn't be renamed- they should be retained as downloaded or received.  Metadata should be stored with the data.
+basic_data is where unmodified, broadly useful data, are stored.  Filenames shouldn't be renamed- they should be retained as downloaded or received.  Metadata should be stored with the data.  This data is most useful when it has a little readme file accompanying it that reports who downloaded or produced the data, when, from where, and why.
 
 When possible, simple, minimalist scripts that access and perhaps plot these data can and should be stored here as well, with sufficient commenting in the script header.  Minimalist, generic scripts that are useful to others reduce the "startup costs" of working with the data.
 
