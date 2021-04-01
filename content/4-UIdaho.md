@@ -22,7 +22,7 @@ Below is a list of tasks and activities that will help keep your time in grad sc
 ## In April of your first year
 - Form a committee to help guide you through your graduate career.
     - For Ph.D. students, the committee will also supervise/contribute to your comprehensive exam.
-    - Guidelines and forms for selecting a committee can be found [here](https://www.uidaho.edu/-/media/UIdaho-Responsive/Files/cogs/COGS-Forms/Guides/Add-or-Change-Committee-members-7_2015.pdf?la=en&hash=B5499A9EC856A7EA15F291BA76865F31D815DF5E).
+    - Guidelines and forms for selecting a committee can be found [here](https://www.uidaho.edu/-/media/UIdaho-Responsive/Files/cogs/COGS-Forms/Guides/combo-change-2014.pdf).
     - If your committee includes any non-UI researchers, they must additionally fill out [this](https://www.uidaho.edu/-/media/UIdaho-Responsive/Files/cogs/COGS-Forms/non-ui-faculty-appointment.pdf?la=en&hash=7FB784C5B07202548E1ED515D173EBE4C02B33B1) form. 
 - Create a graduate study plan and file it with the graduate school.
 
