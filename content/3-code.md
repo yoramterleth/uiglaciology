@@ -85,4 +85,13 @@ To get around the problem of hanging up on a process, 1) run the script directly
 
 
 # Geographic information systems (GIS)
-[QGIS](https://www.qgis.org/en/site/) is a great tool for working with spatial data, like rasters and shapefiles.  It's free and has a lot of capability.
+[QGIS](https://www.qgis.org/en/site/) is a great tool for working with spatial data, like rasters and shapefiles.  It's free and has a lot of capability.  
+QGIS 3.20.3 - Odense is currently installed on the server. To run it, you will need to:
+
+1. SSH with the -Y flag **from within the server**: `ssh -Y USERNAME@kennicott.ibest.uidaho.edu`;
+2. Run QGIS with Singularity: `singularity run --bind /data:/data /data/singularity/qgis.focal.sif`; 
+3. Profit.
+
+Some plugins are already installed (e.g. [Profile Tool](https://github.com/PANOimagen/profiletool), [QProf](https://github.com/mauroalberti/qProf), [QuickMapServices](https://github.com/nextgis/quickmapservices), [QChainage](https://github.com/mach0/qchainage)). Unfortunately, Licensed plugins such as [LAStools](https://github.com/rapidlasso/LAStoolsPluginQGIS3) will not work, and [Wine](https://www.winehq.org/) is not installed on the server.
+
+Note that, while the software runs smoothly when SSHing from the university network, it will be a bit laggy when accessing remotely via a VPN.
