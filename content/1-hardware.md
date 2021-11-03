@@ -52,7 +52,7 @@ Talk to Tim about any of the options, or for more information.
 
 ## Coding in Kennicott
 
-To access a Python interface (an Integrated Development Environment, IDE) like Spyder or Jupyter Lab, first specify a conda environment. It may be useful to clone one of Kennicott's existing environments and work from that cloned environment. This way, you're free to modify (or even break) your own cloned environment without impacting anyone else. For example, rather than using the environment "spatialenv21b," I have created a clone of this environment, named "chrisenv." Now each time I log onto Kennicott, I write `source activate chrisenv` to activate this environment. Typing `spyder` then opens a Spyder interface, from which you can write, run, and save scripts. 
+To access a Python interface (an Integrated Development Environment, IDE) like Spyder or Jupyter Lab, first specify a conda environment. It may be useful to [clone one of Kennicott's existing environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#cloning-an-environment) and work from that cloned environment. This way, you're free to modify (or even break) your own cloned environment without impacting anyone else. For example, rather than using the environment "spatialenv21b," Chris Miele created a clone of this environment, named "chrisenv." Now each time he logs onto Kennicott, he types `source activate chrisenv` to activate this environment. Typing `spyder` then opens a Spyder interface, from which you can write, run, and save scripts. 
 
 
 
