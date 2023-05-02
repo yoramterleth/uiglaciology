@@ -14,17 +14,22 @@ kennicott can be accessed via a terminal and ssh or as a remote desktop, in whic
 ## Options for interacting with kennicott include the following:  
 All require that you be on the university campus, or be using the UIdaho vpn (to appear as though you're on campus).
 
-### Operating as a remote desktop:
-This is likely the best, most capable option, and the recommended one if you're just getting started.
+### Operating as a remote desktop (vnc):
+This is likely the most straight-forward, most capable option, and the recommended one if you're just getting started.
 
 This option uses a web browser to emulate the desktop/gui environment of the linux operating system that runs on kennicott.  You can then use a mouse to explore the file system, or open the terminal and interact with the file system through the command line.
-1. In a web browser, navigate to https://kennicott.ibest.uidaho.edu/vnc
+1. In a web browser, navigate to [https://kennicott.ibest.uidaho.edu/vnc](https://kennicott.ibest.uidaho.edu/vnc)
 2. Click "Connect" in the center of the page. 
 3. From the dropdown menu, choose "Other..."
 4. In the next box, enter your username without the @kennicott... suffix (for example, Chris Miele would enter `cmiele`).
 5. Enter your password and hit "Log in." 
 
 This will take you to a desktop-style interface with Kennicott. By clicking the black square icon at the bottom ("Terminal Emulator"), you can now access Kennicott through the command line. 
+
+### Virtual Studio Code (vscode):
+Virtual Studio Code is a popular program used for writing and testing different kinds of computer code.  Properly, it can be referred to as an Integrated Development Environment (IDE).  [VS Code](https://code.visualstudio.com/) is free software, offered by Microsoft, that can be run on any operating system.  Functionality within VS Code, for ssh, jupyter notebooks, etc. is added through "Extensions," many of which come with a blue check mark to indicate that they are official Microsoft version.  VS Code also offers native integration with git repositories, which make it convenient for working on collaborative projects.
+
+If you install VS Code on your local computer/laptop, and then add the "Remote - SSH" extension from Microsoft, you can log into kennicott and work directly on files on this remote server.
 
 ### Logging in with a secure shell (ssh):
 This option doesn't handle graphics nearly as well if you're not physically on campus.  However, it involves fewer overhead processes and may be preferable if you have a limited bandwidth connection and only need to operate kennicott textually, with the terminal.
