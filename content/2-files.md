@@ -4,8 +4,7 @@ nav: true
 ---
 
 # File Structure and Organization
-
-Use OneDrive to back up your work, and keep it synchronized between different computers.  OneDrive is Microsoft's answer to Dropbox, or Google Drive.  Every student, faculty, and staff get a significant amount of free storage (5 Tb)- so make the most of it.  You should configure your personal/work computer so that _every single piece of work_ that you do, for research, classes, and heck, even your personal files, are backed up continuously to the cloud via OneDrive.
+Most of your significant research efforts should take place on kennicott, or at least be saved there from time to time.  When you graduate or move on from the University, I'll ask that you store all your work products on kennicott, so that they are accessible in the future.
 
 ## On kennicott
 
@@ -15,7 +14,7 @@ kennicott is the name of the lab group server that we use for powerful computing
 - proj
     - at `/data/stor/proj/`
 - The home directory
-    - at `~` or `/home/user_name`, in which `user_name` is your user name, for logging into kennicott, for example your first initial and last name, run together without spaces.
+    - at `~` or `/home/user_name`, in which `user_name` is your user name, for logging into kennicott, for example your first initial and last name, run together without spaces. However, please don't save files to your home directory (see below).
 
 
 ### basic_data
@@ -31,17 +30,19 @@ proj is for individual projects that each of us are working on.  This is where a
 Each of these specific efforts should then have additional subdirectories oriented around specific analyses that contribute to the effort, for instance, different data types, models, folders for scripts, folders for figures, etc.  An example of this heierarchical structure can be found in the directory `proj/Calv_Val`. Any scripts used to produce these analyses should be stored with the analysis output in a straightforward way, by which output can be intuitively linked back to the scripts that created them.
 
 ### Home directory
-Please do not use this directory. You may download files here, but then please immediately delete them after you've moved them into an appropriate `basic_data` or `proj` directory.  There is very little disk space allocated to these home directories, nor are they accessible to others.  It's better to work on projects in a transparent, centralized, and accessible way.
+Your home directory is the default directory you'll arrive in when you first log into kennicott, and has the name of your kennicott username. However, please do not use this directory. You may download files here, but then please immediately delete them after you've moved them into an appropriate `basic_data` or `proj` directory.  There is very little disk space allocated to these home directories, nor are they accessible to others.  It's better to work on projects in a transparent, centralized, and accessible way, within `/data/stor/proj/`.
 
-### Backups on kennicott
-basic_data, proj, and your home directory are backed up annually on the first of the year, as well as monthly and daily.  These backups are stored locally, on kennicott itself.  Monthly snapshots of the data are retained for 6 months and daily snapshots of the data are retained for 8 days only.  As a result, changes and deletions to files in these locations can be undone/recovered if identified quickly enough, while a snapshot exists of the file system.  If you need files recovered, please contact Tim or [Benji Oswald](https://crc.ibest.uidaho.edu/contact.html) at the [CRC of IBEST](https://crc.ibest.uidaho.edu/index.html) as quickly as possible. Existing snapshots on kennicott can be identified by typing `zfs list -t snapshot` at the terminal.
+### Backups of kennicott
+basic_data, proj, and your home directory are backed up annually on the first of the year, as well as monthly and daily.  These backups are stored locally, on kennicott itself.  Monthly snapshots of the data are retained for 6 months and daily snapshots of the data are retained for 8 days only.  As a result, changes and deletions to files in these locations can be undone/recovered if identified quickly enough, while a snapshot exists of the file system.  If you need files recovered, please contact Tim or [Benji Oswald](https://www.hpc.uidaho.edu/general/Staff/) at [Research Computing ad Data Services](https://crc.ibest.uidaho.edu/index.html) as quickly as possible. Existing snapshots on kennicott can be identified by typing `zfs list -t snapshot` at the terminal.
 
 Hard drives on kennicott are mirrored, to provide redundancy in the event of a single hard drive failure.
 
-In the event of a catastrophic loss of kennicott, data are also backed up offsite, via the cloud storage system Crashplan.  This system stores recent backups of files every 8 hours, and increasingly sparse backups until backups are stored monthly.  Files that have been deleted from kennicott are deleted from the Crashplan backup after 90 days.
+Data from kennicott are also backed up off-site, in the event of a catastrophic loss of kennicott.  We use the cloud backup system IDrive.  This system stores recent backups of files every day, in the middle of the night.  IDrive saves current and older versions of all files in `/data/stor/`, including proj and basic_data, and maintains a backup of all files that have been deleted. Contact Tim if you would like help recovering any old files or old versions of files.
 
-## On your local computer
-Please don't do significant computing on your local computer.  However, any products that you do work on, locally, can and should be [backed up on OneDrive](https://support.uidaho.edu/TDClient/40/Portal/KB/ArticleDet?ID=1673).  The free access that we have to huge, cloud data volume storage (>= 1 Tb) on OneDrive is awesome, and we should all make abundant use of it.  But whenever possible, do your work on kennicott.
+## Backups for your local computer
+Please don't do significant computing on your local computer.  However, any products or classwork that you do work on, locally, can and should be [backed up on OneDrive](https://support.uidaho.edu/TDClient/40/Portal/Requests/ServiceDet?ID=864#:~:text=In%20addition%2C%C2%A0a%20person%C2%A0can%20sync%C2%A0OneDrive%C2%A0to%20a%20U%20of%20I%20owned%20computer%20so%20that%20frequently%20used%20are%20stored%20on%20a%20physical%20computer%C2%A0for%20easy%20access%20when%20you%20have%20limited%20or%20no%20Internet%20connection.), which is Microsoft's answer to cloud storage like Dropbox or Google Drive.  Every student, faculty, and staff get a significant amount of free storage (5 Tb) so make the most of it.  When you [install the OneDrive app](https://www.microsoft.com/en-us/microsoft-365/onedrive/download) (or use it natively on a Windows computer), then your OneDrive files are saved on your own personal computer and are available for your use, but they also will sync up to the OneDrive in the cloud, providing for a seemless, automatic backup of your files. You should configure your personal/work computer so that _every single piece of work_ that you do, for research, classes, and heck, even your personal files, are backed up continuously to the cloud via OneDrive. Ask Tim if you have any questions about how to do this.
+
+The free access that we have to huge, cloud data volume storage on OneDrive is awesome, and we should all make abundant use of it.  But whenever possible, do your research work on kennicott so that it is available to all.
 
 ---
 
