@@ -58,7 +58,7 @@ These two front ends are:
 | Rapidly growing development environment, on the ascendency for data scientists, with expanding popularity and functionality. | A traditional IDE, used by developers to write functions and scripts. | Options for both step by step data exploration and more traditional script writing. |
 | Used to write .ipynb files, although these files can be exported as py files. | Used to write .py files, although py files can work with Jupyter. | Accepts both file formats. |
 | Produces python code with more formatting, bells and whistles, and self-contained because of embedded figures and text. | Produces python code that is potentially more portable, and easier to share with python beginners. | Versatile, however it does take some time to setup a working environment that suits each user. Things such as debugging require plugins, which need to be installed. |
-| <img src="../images/jupyter.png" alt="Jupyter screenshot" width="400"/> | <img src="../images/spyder.png" alt="Spyder screenshot" width="400"/> |
+| <img src="../images/jupyter.png" alt="Jupyter screenshot" width="400"/> | <img src="../images/spyder.png" alt="Spyder screenshot" width="400"/> | <img src="../images/vs_code.png" alt="VS Code screenshot" width="400"/>
 
 
 
